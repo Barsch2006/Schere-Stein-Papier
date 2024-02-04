@@ -1,2 +1,3 @@
 # Schere-Stein-Papier
 Schere-Stein-Papier mit Java programmiert
+Es gibt einen Geheimtrick...
