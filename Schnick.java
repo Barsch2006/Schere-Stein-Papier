@@ -55,12 +55,16 @@ if (deinMove == 1) {  //If-Block, geht alle Optionen durch, wenn man selbst Sche
         }         
 } // Ende dieses If-Blocks
 
-if(deinMove==4) {
+if(deinMove==4)  {
     System.out.println("Du kennst den allmächtigen Brunnen! Sofortiger Sieg!");
+    deinScore= deinScore+1000;
+    break;
 }
 
-}// Ende der While-Schleife
-if (deinScore == 3) {
+
+} // Ende der While-Schleife
+
+if (deinScore >= 3) {
    System.out.println("Du hast diese Runde Schnick-Schnack-Schnuck gewonnen! Gratulation!"); 
 } 
    else {
